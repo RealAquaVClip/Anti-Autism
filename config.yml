@@ -1,0 +1,26 @@
+checks:
+  killaura:
+    enabled: true
+    max-cps: 20
+    aim-consistency-threshold: 0.95
+  reach:
+    enabled: true
+    max-reach: 3.05
+    latence-compensation: true
+  autoclicker:
+    enabled: true
+    min-deviation: 3
+  speed:
+    enabled: true
+    max-horizontal: 0.42
+    air-speed-multiplier: 0.7
+  fly:
+    enabled: true
+    vertical-ascend-limit: 0.12
+  scaffold:
+    enabled: true
+    expand-bridge: true
+
+punishment:
+  max-violations: 20
+  command: "kick %player% Cheating"

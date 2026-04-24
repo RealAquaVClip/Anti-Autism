@@ -1,0 +1,5 @@
+name: AntiAutism
+version: 1.0
+main: com.arc.antiautism.AntiAutism
+api-version: 1.8.9
+depend: [ProtocolLib]
